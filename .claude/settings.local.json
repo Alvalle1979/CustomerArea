@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"//wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/public/\")",
+      "Read(///wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/**)",
+      "Bash(ls \"//wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/\" 2>&1)",
+      "Read(///wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/**)",
+      "Bash(mkdir -p \"//wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/public\")",
+      "Bash(mv \"//wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/app/public/logo-twitter.png\" \"//wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/public/logo-twitter.png\")",
+      "Bash(wslpath -u '\\\\\\\\wsl.localhost\\\\Ubuntu-24.04\\\\home\\\\italo21211\\\\projetos\\\\Anderson\\\\shopify-login-app')",
+      "Read(//mnt/c/Users/ITALO/.claude/projects/--wsl-localhost-Ubuntu-24-04-home-italo21211-projetos-Anderson-shopify-login-app/**)",
+      "Bash(dir \"C:\\\\Users\\\\ITALO\\\\.claude\\\\projects\\\\--wsl-localhost-Ubuntu-24-04-home-italo21211-projetos-Anderson-shopify-login-app\\\\memory\")",
+      "Bash(ls -la \"\\\\\\\\\\\\\\\\wsl.localhost\\\\\\\\Ubuntu-24.04\\\\\\\\home\\\\\\\\italo21211\\\\\\\\projetos\\\\\\\\Anderson\\\\\\\\shopify-login-app\" 2>&1 | head -30)",
+      "Bash(wc -l \"\\\\\\\\\\\\\\\\wsl.localhost\\\\\\\\Ubuntu-24.04\\\\\\\\home\\\\\\\\italo21211\\\\\\\\projetos\\\\\\\\Anderson\\\\\\\\shopify-login-app\\\\\\\\app\\\\\\\\globals.css\")",
+      "Read(///wsl.localhost/Ubuntu-24.04/home/italo21211/projetos/Anderson/shopify-login-app/app/**)"
+    ]
+  }
+}
