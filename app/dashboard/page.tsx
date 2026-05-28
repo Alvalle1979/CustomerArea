@@ -281,9 +281,9 @@ export default async function DashboardPage() {
           <div className="tb-card">
             <div className="tb-card-header">
               <span className="tb-card-title">WARRANTY</span>
-              <a href="#" className="tb-link-text">
+              <Link href="/dashboard/warranty" className="tb-link-text">
                 Open →
-              </a>
+              </Link>
             </div>
             <div className="tb-warranty-grid">
               <div className="tb-warranty-stat">
@@ -308,9 +308,9 @@ export default async function DashboardPage() {
       <div className="tb-card tb-need-card">
         <div className="tb-card-header">
           <span className="tb-card-title">NEED A HAND?</span>
-          <a href="#" className="tb-link-text">
+          <Link href="/dashboard/support" className="tb-link-text">
             Contact options →
-          </a>
+          </Link>
         </div>
         <div className="tb-need-grid">
           <div className="tb-need-item">

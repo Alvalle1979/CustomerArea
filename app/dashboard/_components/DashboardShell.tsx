@@ -9,8 +9,8 @@ const NAV_ITEMS: Array<{ key: NavKey; label: string; icon: string; href: string 
   { key: "overview", label: "Overview", icon: "▦", href: "/dashboard" },
   { key: "orders", label: "Order History", icon: "▢", href: "/dashboard/orders" },
   { key: "addresses", label: "Addresses", icon: "◉", href: "/dashboard/addresses" },
-  { key: "warranty", label: "Warranty", icon: "◈", href: "#" },
-  { key: "support", label: "Support", icon: "◊", href: "#" },
+  { key: "warranty", label: "Warranty", icon: "◈", href: "/dashboard/warranty" },
+  { key: "support", label: "Support", icon: "◊", href: "/dashboard/support" },
 ];
 
 export function DashboardShell({
@@ -51,13 +51,6 @@ export function DashboardShell({
                 TWITTER<span className="tb-logo-accent">BIKE</span>
               </span>
             </Link>
-          </div>
-          <div className="tb-topnav-right">
-            <button className="tb-bell" aria-label="Notifications">
-              <span className="tb-bell-dot" aria-hidden />
-              <span aria-hidden>◔</span>
-            </button>
-            <div className="tb-avatar tb-avatar-sm">{initials}</div>
           </div>
         </div>
       </nav>
