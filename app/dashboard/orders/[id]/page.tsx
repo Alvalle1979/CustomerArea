@@ -148,12 +148,6 @@ export default async function OrderDetailPage({
             <span className="assembly-badge assembly-badge-green">
               <span className="assembly-badge-dot" /> FULFILLED
             </span>
-            <button className="assembly-btn-outline">
-              <span aria-hidden>⬇</span> Invoice
-            </button>
-            <button className="assembly-btn-primary">
-              Reorder <span aria-hidden>→</span>
-            </button>
           </div>
         </header>
 
